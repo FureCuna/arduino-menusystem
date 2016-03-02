@@ -43,18 +43,18 @@ void on_item1_selected(MenuItem* p_menu_item)
 {
   GLCD.ClearScreen();
 
-GLCD.CursorToXY (9,6);//Cursor verplaatsen tot (9;6)
-GLCD.print("Item1 Selected");//Schrijven op het scherm "20"
+GLCD.CursorToXY (9,6);//putting the cursor at coordinates 9;6 so it wont be completely in the corner
+GLCD.print("Item1 Selected");
 
-  delay(1500); // so we can look the result on the LCD
+  delay(1500); // so we can look the result on the GLCD
 }
 
 void on_item2_selected(MenuItem* p_menu_item)
 {
   GLCD.ClearScreen();
 
-GLCD.CursorToXY (9,6);//Cursor verplaatsen tot (9;6)
-GLCD.print("Item2 Selected");//Schrijven op het scherm "20"
+GLCD.CursorToXY (9,6);//putting the cursor at coordinates 9;6 so it wont be completely in the corner
+GLCD.print("Item2 Selected");
 
 
   delay(1500); // so we can look the result on the LCD
@@ -64,8 +64,8 @@ void on_item3_selected(MenuItem* p_menu_item)
 {
   GLCD.ClearScreen();
 
-GLCD.CursorToXY (9,6);//Cursor verplaatsen tot (9;6)
-GLCD.print("Item3 Selected");//Schrijven op het scherm "20"
+GLCD.CursorToXY (9,6);//putting the cursor at coordinates 9;6 so it wont be completely in the corner
+GLCD.print("Item3 Selected");
 
   delay(1500); // so we can look the result on the LCD
 }
